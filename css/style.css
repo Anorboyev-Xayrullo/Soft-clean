@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 1140px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -169,6 +169,9 @@ header{
 
 
 @media (max-width:575px) {
+    .nav-text{
+        display: none;
+    }
     .logo_one{
         display: grid;
     }
@@ -181,48 +184,59 @@ header{
     .same h2{
         text-align: center;
         font-size: 18px;
+        margin-left: 30px;
     }
     .same p{
+        margin-left: 30px;
         font-size: 14px;
         text-align: center;
     }
     .street{
-        margin-left: 30px;
+        margin-left: 70px;
     }
     .long{
-        margin-left: 40px;
+        margin-left: 90px;
     }
     .logo_one h2{
         text-align: center;
-        margin-left: 70px;
+        margin-left: 120px;
         margin-top: 20px;
     }
     .logo_one p{
         margin-top: 10px;
-        margin-left: 70px;
+        margin-left: 120px;
         text-align: center;
     }
     .logo_one h3{
         margin-top: 20px;
-        margin-left: 70px;
+        margin-left: 120px;
         text-align: center;
     }
     .logo_one h4{
         margin-left: 0px;
     }
     .logo_one img{
-        margin-left: 140px;
+        margin-left: 180px;
     }
     .logo_one span{
         padding-top: 100px;
-        margin-left: 100px;
+        margin-left: 150px;
     }
     .fa-telegram{
-        margin-left: 130px;
+        margin-left: 170px;
     }
     .logo_one button{
         margin-top: 20px;
-        margin-left: 80px;
+        margin-left: 120px;
+    }
+    .girls{
+        margin-top: 100px;
+    }
+    .circle{
+        display: none;
+    }
+    .fa-brands{
+        margin-top: 20px;
     }
 }
 
